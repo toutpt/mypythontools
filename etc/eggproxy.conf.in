@@ -1,0 +1,5 @@
+[eggproxy]
+eggs_directory = ${buildout:directory}/var/cache
+update_interval = 24
+index = http://pypi.python.org/simple
+port = 8888
